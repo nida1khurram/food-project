@@ -1,0 +1,52 @@
+{
+    "dishes":[
+        {
+            "id":1,
+            "title":"Fried Eggs",
+            "image":"egg.png",
+            "time":20,
+            "description":"Made with eggs, lettuce, salt, oil and other ingredients.",
+            "vegan": false
+        },
+        {
+            "id":2,
+            "title":"Fried Eggs",
+            "image":"egg.png",
+            "time":20,
+            "description":"Made with eggs, lettuce, salt, oil and other ingredients.",
+            "vegan": false  
+        },
+        {
+            "id":3,
+            "title":"Fried Eggs",
+            "image":"egg.png",
+            "time":20,
+            "description":"Made with eggs, lettuce, salt, oil and other ingredients.",
+            "vegan": false  
+        },
+        {
+            "id":4,
+            "title":"Fried Eggs",
+            "image":"egg.png",
+            "time":20,
+            "description":"Made with eggs, lettuce, salt, oil and other ingredients.",
+            "vegan": false  
+        },
+        {
+            "id":5,
+            "title":"Fried Eggs",
+            "image":"egg.png",
+            "time":20,
+            "description":"Made with eggs, lettuce, salt, oil and other ingredients.",
+            "vegan": false  
+        },
+        {
+            "id":6,
+            "title":"Fried Eggs",
+            "image":"egg.png",
+            "time":20,
+            "description":"Made with eggs, lettuce, salt, oil and other ingredients.",
+            "vegan": false  
+        }
+    ]
+}
