@@ -1,11 +1,13 @@
 
+import BrowsOurMenu from "@/components/browsOuMenu";
 import Hero from "@/components/hero";
 
 export default function Home() {
   return (
    <main>
-    <Hero />
- 
-   </main>
+    <Hero /> 
+     <BrowsOurMenu/>
+  
+   </main> 
   );
 }

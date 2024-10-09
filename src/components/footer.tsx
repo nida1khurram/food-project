@@ -143,38 +143,46 @@ export default function Footer() {
           </p></Link>
 <div className='flex gap-2'>
 <div className='flex'>
+          <Link href={'/menu'}>
           <Image 
-          className='flex rounded-lg w-[400] h-[400]'
+          className='flex rounded-lg w-[400] h-[400]  hover:animate-ping'
              alt="name"
              width={400}
              height={400}
              src={require("../../public/picture/footer/steve-1.png")}/>
+             </Link>
           </div>
           <div className='flex'>
+          <Link href={'/menu'}>
           <Image 
-          className='flex rounded-lg w-[400] h-[400]'
+          className='flex rounded-lg w-[400] h-[400]  hover:animate-ping'
                alt="name"
                width={400}
                height={400}
                src={require("../../public/picture/footer/ella-olsson-3.png")}/>
+                </Link>
           </div>
 </div>
   <div className='flex gap-2 mt-2 rounded-lg'>
             <div className='flex'>
+            <Link href={'/menu'}>
             <Image 
-            className='flex rounded-lg w-[400] h-[400]'
+            className='flex rounded-lg w-[400] h-[400] hover:animate-ping'
                alt="name"
                width={400}
                height={400}
                src={require("../../public/picture/footer/fries-2.png")}/>
+                </Link>
             </div>
             <div>
+            <Link href={'/menu'}>
             <Image 
-             className='flex rounded-lg w-[400] h-[400]'
+             className='flex rounded-lg w-[400] h-[400] hover:animate-ping'
                alt="name"
                width={400}
                height={400}
                src={require("../../public/picture/footer/ash-4.png")}/>
+                </Link>
             </div> 
     </div>       
       
