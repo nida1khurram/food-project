@@ -1,4 +1,5 @@
 
+
 import BrowsOurMenu from "@/components/browsOuMenu";
 import Hero from "@/components/hero";
 
@@ -7,7 +8,7 @@ export default function Home() {
    <main>
     <Hero /> 
      <BrowsOurMenu/>
-  
+
    </main> 
   );
 }

@@ -7,7 +7,8 @@ export default function Contact() {
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto ">
         <div className="flex flex-col text-center w-full mb-12  ">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+          <h1 className="sm:text-2xl md:text-5xl font-medium title-font mb-4 text-gray-900 
+          white-text-with-gray-shadow transition-all duration-1000 ease-in-out  hover:scale-105">
             Contact Us
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -17,8 +18,8 @@ export default function Contact() {
         </div>
         {/* form */}
         <motion.div
-        initial={{opacity:0.3, rotateX:"90deg"}}
-        whileInView={{opacity:1, rotateX:0}}
+        initial={{opacity:0.5, rotateY:"130deg"}}
+        whileInView={{opacity:1, rotateY:0}}
         transition={{duration:2}}>
         <div className="lg:w-1/2 md:w-2/3 mx-auto px-10 py-10 rounded-lg shadow-2xl shadow-gray-500/50">
           <div className="flex flex-wrap -m-2">

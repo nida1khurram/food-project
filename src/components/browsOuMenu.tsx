@@ -8,8 +8,8 @@ export default function BrowsOurMenu() {
   return (
     <section className="text-gray-600 body-font">
       <motion.div
-        initial={{ opacity: 0, translateX: "-100%" }}
-        whileInView={{ opacity: 1, translateX: 0 }}
+        initial={{ opacity: 0, translateY: "100%" }}
+        whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 3 }}
       >
         <div className="container px-2 py-24 mx-auto ">
@@ -27,7 +27,7 @@ export default function BrowsOurMenu() {
 
             <div className=" md:w-1/4 flex flex-col text-center items-center  border-2 rounded-xl  py-10  transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(173,52,62)] hover:scale-105">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-[#DBDFD0] text-[#474747] mb-5 flex-shrink-0">
-                <BsCupHot className="w-10 h-10" />
+                <BsCupHot className="w-10 h-10 hover:animate-spin" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-[#2C2F24] text-[24px] title-font font-medium mb-3">
@@ -44,7 +44,7 @@ export default function BrowsOurMenu() {
             {/* 2 */}
             <div className=" md:w-1/4 flex flex-col text-center items-center border-2 rounded-xl  py-10 transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(173,52,62)] hover:scale-105">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-[#DBDFD0] text-[#474747] mb-5 flex-shrink-0">
-                <BiBowlRice className="w-10 h-10" />
+                <BiBowlRice className="w-10 h-10 hover:animate-spin" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-[#2C2F24] text-[24px]  title-font font-medium mb-3">
@@ -59,7 +59,7 @@ export default function BrowsOurMenu() {
             {/* 3 */}
             <div className="md:w-1/4 flex flex-col text-center items-center border-2 rounded-xl  py-10 transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(173,52,62)] hover:scale-105">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-[#DBDFD0] text-[#474747] mb-5 flex-shrink-0">
-                <LuCakeSlice className="w-10 h-10" />
+                <LuCakeSlice className="w-10 h-10 hover:animate-spin" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-[#2C2F24] text-[24px]  title-font font-medium mb-3">
@@ -75,7 +75,7 @@ export default function BrowsOurMenu() {
             {/* 4 */}
             <div className=" md:w-1/4 flex flex-col text-center items-center border-2 rounded-xl  py-10 transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(173,52,62)] hover:scale-105">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-[#DBDFD0] text-[#474747] mb-5 flex-shrink-0">
-                <RiDrinks2Line className="w-10 h-10" />
+                <RiDrinks2Line className="w-10 h-10 hover:animate-spin" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-[#2C2F24] text-[24px]  title-font font-medium mb-3">
