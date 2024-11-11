@@ -3,9 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function Navbar() {
   return (
-    <div>
+    <div >
       <nav className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         {/* logo */}
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -32,8 +33,11 @@ export default function Navbar() {
           <button className="animate-bounce font-bold inline-flex items-center text-[#182226] border-1 border-[#2C2F24] py-1 px-3 focus:outline hover:bg-gray-200 rounded-full outline outline-1 text-base mt-4 md:mt-0">
             Book A Table
           </button>
+         
         </div>
       </nav>
     </div>
   );
 } 
+
+

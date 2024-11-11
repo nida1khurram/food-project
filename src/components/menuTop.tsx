@@ -19,11 +19,11 @@ export default function MenuTop() {
     {/* nav */}
 
        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center gap-3">
-            <Link href={'/menu'}> <button className="text-[16] font-bold  text-[#2C2F24]  w-[120px] h-[50px] rounded-full hover:bg-[#AD343E]  focus:bg-[#AD343E] focus:text-[#fff] border-[#474747] border-1 outline outline-1">All</button></Link>
-            <Link href={'/menu'}> <button className="text-[16] font-bold text-[#2C2F24]  w-[120px] h-[50px] rounded-full  hover:bg-[#AD343E] focus:bg-[#AD343E] focus:text-[#fff] border-[#474747] border-1 outline outline-1">Breakfast</button></Link>
-            <Link href={'/menu'}> <button className="text-[16] font-bold  text-[#2C2F24]  w-[120px] h-[50px] rounded-full hover:bg-[#AD343E]  focus:bg-[#AD343E] focus:text-[#fff] border-[#474747] border-1 outline outline-1">Main Dishes</button></Link>
-            <Link href={'/menu'}> <button className="text-[16] font-bold text-[#2C2F24]  w-[120px] h-[50px] rounded-full  hover:bg-[#AD343E] focus:bg-[#AD343E] focus:text-[#fff] border-[#474747] border-1 outline outline-1">Drinks</button></Link>
-             <Link href={'/menu'}> <button className="text-[16] font-bold text-[#2C2F24]  w-[120px] h-[50px] rounded-full hover:bg-[#AD343E]  focus:bg-[#AD343E] focus:text-[#fff] border-[#474747] border-1 outline outline-1">Deserts</button></Link>
+            <Link href={'/menu'}> <button className="text-[16] font-bold  text-[#2C2F24]  w-[120px] h-[50px] rounded-full hover:bg-[#AD343E]  focus:bg-[#AD343E] focus:text-[#fff] hover:text-[#fff] border-[#474747] border-1 outline outline-1">All</button></Link>
+            <Link href={'/menu'}> <button className="text-[16] font-bold text-[#2C2F24]  w-[120px] h-[50px] rounded-full  hover:bg-[#AD343E] focus:bg-[#AD343E] focus:text-[#fff] hover:text-[#fff] border-[#474747] border-1 outline outline-1">Breakfast</button></Link>
+            <Link href={'/menu'}> <button className="text-[16] font-bold  text-[#2C2F24]  w-[120px] h-[50px] rounded-full hover:bg-[#AD343E]  focus:bg-[#AD343E] focus:text-[#fff] hover:text-[#fff] border-[#474747] border-1 outline outline-1">Main Dishes</button></Link>
+            <Link href={'/menu'}> <button className="text-[16] font-bold text-[#2C2F24]  w-[120px] h-[50px] rounded-full  hover:bg-[#AD343E] focus:bg-[#AD343E] focus:text-[#fff] hover:text-[#fff] border-[#474747] border-1 outline outline-1">Drinks</button></Link>
+             <Link href={'/menu'}> <button className="text-[16] font-bold text-[#2C2F24]  w-[120px] h-[50px] rounded-full hover:bg-[#AD343E]  focus:bg-[#AD343E] focus:text-[#fff] hover:text-[#fff] border-[#474747] border-1 outline outline-1">Deserts</button></Link>
            </nav>
 
   </div>
