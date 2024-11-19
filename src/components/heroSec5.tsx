@@ -159,7 +159,7 @@ export default function HeroSection5() {
                         alt="chef holding plate"
                         width={431}
                         height={600}
-                        className="w-full h-auto"
+                        className="w-full h-auto transition-all duration-800 ease-in-out  hover:scale-90  hover:shadow-2xl"
                     />
                 </div>
 
@@ -169,14 +169,14 @@ export default function HeroSection5() {
                         alt="curry"
                         width={290}
                         height={333}
-                        className="w-64 h-auto mt-8 md:mt-0"
+                        className="w-64 h-auto mt-8 md:mt-0 transition-all duration-800 ease-in-out  hover:scale-90  hover:shadow-2xl"
                     />
                     <Image
                         src={'/picture/header-pics/sec5-3.png'}
                         alt="food plate"
                         width={290}
                         height={240}
-                        className="w-64 h-auto my-5"
+                        className="w-64 h-auto my-5 transition-all duration-800 ease-in-out  hover:scale-90  hover:shadow-2xl"
                     />
                 </div>
 
